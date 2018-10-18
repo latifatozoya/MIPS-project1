@@ -17,3 +17,8 @@ main:
   syscall
   addi $a0, $a0, 0
   syscall
+  addi $a0, $a0, -1
+  syscall
+  addi $a0, $a0, 1
+  syscall
+  li $v0, 11              #this is a system call code for  print character
