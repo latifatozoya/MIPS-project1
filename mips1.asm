@@ -30,3 +30,11 @@ main:
   syscall
   addi $a0, $a0, -11
   syscall
+  addi $a0, $a0, 10       
+  syscall
+  addi $a0, $a0, -24
+  syscall
+  addi $a0, $a0, -53     #97 - 53 = 44 which is decimal for a comma(,) character
+  syscall
+  addi $a0, $a0, -12     #44 - 12 = 32 which is the decimal for a space
+  syscall
