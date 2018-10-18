@@ -38,3 +38,11 @@ main:
   syscall
   addi $a0, $a0, -12     #44 - 12 = 32 which is the decimal for a space
   syscall
+  addi $a0, $a0, 44      #32 + 44 = 76 which is decimal for 'L' character
+  syscall
+  addi $a0, $a0, 21
+  syscall
+  addi $a0, $a0, 19
+  syscall
+  addi $a0, $a0, -11
+  syscall
