@@ -11,3 +11,9 @@ main:
   syscall
   addi $a0, $a0, 6        #adds $a0 (2) and 6 and stores answer in register $a0
   syscall
+  addi $a0, $a0, -5      #loads final value into argument register $a0
+  syscall
+  addi $a0, $a0, 4
+  syscall
+  addi $a0, $a0, 0
+  syscall
