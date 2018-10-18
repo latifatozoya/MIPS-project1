@@ -22,3 +22,11 @@ main:
   addi $a0, $a0, 1
   syscall
   li $v0, 11              #this is a system call code for  print character
+  addi $a0, $a0, 3        # 7 + 3 = 10 which is the decimal for a new line
+  syscall
+  addi $a0, $a0, 69       #10 + 69 = 79 which is the decimal for 'O' character
+  syscall
+  addi $a0, $a0, 43
+  syscall
+  addi $a0, $a0, -11
+  syscall
