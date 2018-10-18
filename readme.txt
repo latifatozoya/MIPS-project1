@@ -1,2 +1,1 @@
 # MIPS-project1
-..
